@@ -1170,6 +1170,8 @@ function setup_codemirror()
 
 
   var cm_config = {
+    inputStyle: 'contenteditable',
+    spellcheck: true,
     value: eow_info.content,
     fixedGutter: true,
     theme: theme,
